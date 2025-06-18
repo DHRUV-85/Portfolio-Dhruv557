@@ -118,7 +118,7 @@ exports.forgotPassword = async (req, res, next) => {
     console.log("Reset token generated and saved");
 
     // Create reset URL
-    const resetUrl = `${"https://portfolio-dhruv557-live.onrender.com"}/reset-password/${resetToken}`;
+    const resetUrl = `"https://portfolio-dhruv557-live.onrender.com"/reset-password/${resetToken}`;
 
     const message = `You are receiving this email because you (or someone else) has requested the reset of a password. 
 
