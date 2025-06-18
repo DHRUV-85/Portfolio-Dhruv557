@@ -40,7 +40,7 @@ export default function App() {
               />
 
               {/* Admin Authentication Routes (No Layout) */}
-              <Route path="/admin/login" element={<Login />} />
+              <Route path="https://portfolio-dhruv557-live.onrender.com/admin/login" element={<Login />} />
               <Route path="/admin/forgot-password" element={<ForgotPassword />} />
               <Route path="/admin/reset-password/:token" element={<ResetPassword />} />
 
