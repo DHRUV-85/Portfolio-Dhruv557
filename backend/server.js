@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000
 
 // CORS Configuration
 const corsOptions = {
-  origin: ["http://localhost:3000", "http://localhost:5173", "http://localhost:3001", "http://127.0.0.1:5173"],
+  origin: ["http://localhost:3000", "http://localhost:5173", "http://localhost:3001", "http://127.0.0.1:5173", "https://portfolio-dhruv557-live.onrender.com"],
   credentials: true,
   optionsSuccessStatus: 200,
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
