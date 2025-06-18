@@ -37,7 +37,7 @@ const ForgotPassword = () => {
             <h2 className="mt-6 text-3xl font-extrabold text-gray-900">Check your email</h2>
             <p className="mt-2 text-sm text-gray-600">We've sent a password reset link to {email}</p>
             <div className="mt-6">
-              <Link to="/login" className="text-blue-600 hover:text-blue-500">
+              <Link to="/admin/login" className="text-blue-600 hover:text-blue-500">
                 Back to login
               </Link>
             </div>
