@@ -119,7 +119,7 @@ exports.forgotPassword = async (req, res, next) => {
 
     // Create reset URL
     const resetUrl = `${
-      process.env.FRONTEND_URL || "http://localhost:3000"
+      process.env.FRONTEND_URL || "https://portfolio-dhruv557-live.onrender.com"
     }/reset-password/${resetToken}`;
 
     const message = `You are receiving this email because you (or someone else) has requested the reset of a password. 
